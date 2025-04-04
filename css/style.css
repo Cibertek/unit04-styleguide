@@ -458,24 +458,49 @@ a {
   background-color: #51ddfc;
 }
 
-/* line 19, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+/* line 18, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #b5f1fe;
+}
+
+/* line 23, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+/* line 26, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f5cacc;
+}
+
+/* line 31, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+/* line 34, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #cbc0e2;
+}
+
+/* line 39, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+/* line 42, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #b0e5c0;
+}
+
+/* line 47, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 50, D:/cloud/OneDrive - Cibertek Media/repos/unit04-styleguide/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #fec9bb;
 }
 
 /* ============================================= */
