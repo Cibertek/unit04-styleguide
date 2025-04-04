@@ -13,23 +13,43 @@
   }
   
   .default {
-    background-color: $btn-def-color;
+    background-color: $btn-def-color; //Base color of btn
+
+    &:hover {
+      background-color: lighten($btn-def-color, 20%);
+    }
   }
   
   .error {
-    background-color: $btn-err-color;
+    background-color: $btn-err-color;//Base color of btn
+
+    &:hover {
+      background-color: lighten($btn-err-color, 20%); // Lightens btn color
+    }  
   }
   
   .info {
-    background-color: $btn-info-color;
+    background-color: $btn-info-color;//Base color of btn
+
+    &:hover {
+      background-color: lighten($btn-info-color, 20%);// Lightens btn color
+    }
   }
   
   .success {
-    background-color: $btn-scss-color;
+    background-color: $btn-scss-color;//Base color of btn
+
+    &:hover {
+      background-color: lighten($btn-scss-color, 20%);  // Lightens btn color
+    }
   }
   
   .warning {
-    background-color: $btn-warn-color;
+    background-color: $btn-warn-color;//Base color of btn
+
+    &:hover {
+      background-color: lighten($btn-warn-color, 20%);// Lightens btn color
+    }
   }
   
   
